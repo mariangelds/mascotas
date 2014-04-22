@@ -30,7 +30,7 @@ Mascotas::Application.configure do
   config.action_mailer.perform_deliveries = true
   config.assets.debug = true
 
-  config.action_mailer.perform_deliveries = true 
+
 #permite enviar correos desde el ambiente de desarrollo
 config.assets.debug = true
 config.action_mailer.smtp_settings = { 
@@ -41,6 +41,6 @@ authentication: "plain",
 enable_starttls_auto: true, 
 user_name: ENV["GMAIL_USERNAME"], 
 password: ENV["GMAIL_PASSWORD"] 
-
+}
 
 end
