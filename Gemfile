@@ -12,16 +12,19 @@ ruby '2.0.0'
 	gem 'jbuilder', '~> 1.2'
 	gem 'thin' 
 
-
+	gem 'debugger'
+	
 	#gemas para la aplicación
 	gem 'activerecord-tableless'
 	gem 'compass-rails', '1.1.2'
 	gem 'figaro'
 	gem 'gibbon'
-	gem 'google_drive'
+	gem 'google_drive','0.3.9'
 	gem 'high_voltage'
 	gem 'simple_form'
 	gem 'zurb-foundation'
+
+	gem 'roo', '~> 1.13.2'
 
 	group :development do
 		gem 'better_errors' 
